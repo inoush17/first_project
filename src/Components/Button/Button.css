@@ -1,8 +1,9 @@
 .button {
     padding: 6px;
     border: none;
-    background: linear-gradient(30deg, rgba(227, 205, 4, 0.468) 20%, rgba(10, 202, 219, 0.047)90%);
-    color: black;
+    /* background: linear-gradient(30deg, rgba(227, 205, 4, 0.468) 20%, rgba(10, 202, 219, 0.047)90%); */
+    background-color: black;
+    color: white;
     border-radius: 5px;
     cursor: pointer;
     width: 100%;
@@ -12,16 +13,16 @@
 
 .button2 {
     padding: 6px;
-    border: none;
-    background-color: chocolate;
-    color: white;
+    border: solid 3px;
+    background-color: white;
+    color: black;
     border-radius: 5px;
     cursor: pointer;
     font-size: medium;
 }
 
-.button:hover {
-    border: solid 2px chocolate;
+.button:hover{
+    border: solid 2px black;
     background-color: white;
     color: black;
     border-radius: 5px;

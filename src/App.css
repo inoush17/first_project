@@ -1,6 +1,6 @@
 .body{
     display: flex;
-    gap: 30px;
+    gap: 50px;
     /* flex-direction: column; */
     justify-content: center;
     align-items: center;
