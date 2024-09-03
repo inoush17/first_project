@@ -1,0 +1,29 @@
+.button {
+    padding: 6px;
+    border: none;
+    background: linear-gradient(30deg, rgba(227, 205, 4, 0.468) 20%, rgba(10, 202, 219, 0.047)90%);
+    color: black;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    font-size: medium;
+    border: 2px solid #fff;
+}
+
+.button2 {
+    padding: 6px;
+    border: none;
+    background-color: chocolate;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: medium;
+}
+
+.button:hover {
+    border: solid 2px chocolate;
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+    cursor: pointer;
+}
